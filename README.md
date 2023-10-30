@@ -9,7 +9,6 @@ Welcome to my portfolio! This web project showcases my personal information, ach
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [License](#license)
 - [Contact](#contact)
 
 ## Description
@@ -32,15 +31,14 @@ This portfolio website presents information about me, my education, work experie
    ```bash
    git clone https://github.com/maltynai/personal-portfolio.git
 
-##Usage
+## Usage
 Navigate through different sections using the menu bar. Feel free to explore the content, including the contact form, resume, works, and gallery.
 
-##Technologies
+## Technologies
 HTML5
 CSS3
 JavaScript
 
 
-##Contact
-For any inquiries, please contact me:
-Email: altynai.melisova@alatoo.edu.kg
+## Contact
+For any inquiries, please contact me: altynai.melisova@alatoo.edu.kg
