@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melisova Altynai - Portfolio</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <div class="menu-bar">
+    <div class="menu-logo"><img src="images/logo.jpg"></div>
+    <div class="navbar">
+        <a onclick="selectButton(0)">Welcome</a>
+        <a onclick="selectButton(1)">About Me</a>
+        <a onclick="selectButton(2)">Contact</a>
+        <a onclick="selectButton(3)">Resume</a>
+        <a onclick="selectButton(4)">Works</a>
+        <a onclick="selectButton(5)">Gallery</a>
+    </div>
+  </div>
+
+  <div class="menu-bar-placeholder"></div>
+
+  <div class="content">
+        <section id="welcome">
+            
+            <div class="name">
+                <p class="welcome">Welcome to my Portfolio!!</p>
+                <p>Melisova</p>
+                <p>Altynai</p>
+            </div>
+
+            <div class="image">
+                <img src="images/img.png">
+            </div>
+        </section>
+        <section id="about">
+    
+            <p>Allow me to introduce myself: I am Melisova Altynai, born on the 21st of April, 2005. As I embark on the journey of life, I find myself navigating the realms of knowledge and experience with unwavering enthusiasm and determination.</p>
+            <p>Currently, I am a student at Ala-Too International University, where I am diligently pursuing my dreams by lerning computer science. My educational journey commenced at the prestigious №95 Chinese school, where I laid the foundations of my academic pursuits.</p>
+            <p>Amidst my diverse interests, I find solace 
+                in the world of literature, where each page 
+                offers a new adventure. Skiing, on the other hand, is a thrilling communion with nature, with cold mountain air and pristine slopes as my companions. My journey into music involves learning to play the guitar. Additionally, I have a deep love for meditation, which has become a source of tranquility and mindfulness in my daily life. These passions enrich my life, infusing it with inspiration and a sense of adventure</p>     
+            <div class="about-img">
+                <img src="images/meditation.jpg">
+                <img src="images/guitar.jpg">
+                <img src="images/book.jpg">
+                <img src="images/ski.jpg">
+                <img src="images/book2.jpg">
+            </div>
+        </section>
+        <section id="contact" class="content-section">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me through the following channels:</p>
+        
+            <ul>
+                <li>Email: <a href="mailto:altynai.melisova@alatoo.edu.kg">altynai.melisova@alatoo.edu.kg</a></li>
+                <li>Phone: <a href="tel:+996704585958">+996 704585958</a></li>
+                <li>Telegram: <a href="https://t.me/Sullld" target="_blank">My Telegram Profile</a></li>
+                <li>Instagram: <a href="https://www.instagram.com/__altynai_m__" target="_blank">My Instagram Profile</a></li>
+              </ul>
+              
+        
+          
+            <form id="contactForm">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+        
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+        
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+        
+              <button type="button" onclick="submitForm()">Submit</button>
+            </form>
+          </section>
+        
+        
+        
+          <section id="resume" class="content-section">
+            <h2>Resume</h2>
+          
+      
+            <div class="resume-section">
+              <h3>Education</h3>
+              <div class="resume-item">
+                <p class="date">2011 - 2015</p>
+                <h4>Primary School</h4>
+                <p class="institution">Rustambek Mamyraliev</p>
+              </div>
+              <hr>
+              <div class="resume-item">
+                <p class="date">2015 - 2022</p>
+                <h4>High School</h4>
+                <p class="institution">N95 Chinese School</p>
+              </div>
+              <hr>
+              <div class="resume-item">
+                <p class="date">2022 - Present</p>
+                <h4>Bachelor of Science in Computer Science</h4>
+
+                <p class="institution">Ala-Too International University</p>
+              </div>
+           
+            </div>
+
+            <div class="resume-section">
+              <h3>Work Experience</h3>
+              <div class="resume-item">
+                <p class="date">2022 - Present </p>
+                <h4>Mentor of Programming Courses</h4>
+                <p class="company">AIU</p>
+                <p class="description">
+                    <p>- Provide guidance and support to students in programming courses.</p>
+                    <p>- Assist in resolving coding challenges and project development.</p>
+                    <p>- Conduct code reviews and offer constructive feedback for improvement.</p>
+                  </p>
+              </div>
+              <hr>
+              <div class="resume-item">
+                <p class="date">2023 - Present </p>
+                <h4>Intern in Sponsor company</h4>
+                <p class="company">Good Neighbors</p>
+                <p class="description">
+                    <p class="description">Assisting in various projects and initiatives, gaining hands-on experience in the day-to-day operations of a dynamic and socially responsible organization. Collaborating with team members to contribute to the success of impactful programs and initiatives.</p>
+                </p>
+              </div>
+   
+            </div>
+          
+            <div class="resume-item">
+                <h4>Skills</h4>
+                <ul class="skills-list">
+                  <li>Programming Languages: Python, C++, Java</li>
+                  <li>Web Development: HTML, CSS</li>
+                  <li>Database Management: PostgreSQL</li>
+                  <li>Version Control: Git</li>
+                  <li>Problem Solving and Algorithm Design</li>
+                  <li>Agile Development Methodologies</li>
+                  <li>UI/UX Design Principles</li>
+                  <li>Team Collaboration and Communication</li>
+                  <li>Time Management and Organization</li>
+                </ul>
+              </div>
+              
+          
+     
+          
+          </section>
+          
+
+<section id="works">
+    <h2>Works</h2>
+  
+    <div class="work-item">
+      <h3>Project 1: Personal Portfolio Website</h3>
+      <p class="date">2023</p>
+      <p>Designed and implemented a personal portfolio website using HTML and CSS. </p>
+      <p>GitHub Repo: <a href="https://github.com/maltynai/profile" target="_blank">Project 1</a></p>
+    </div>
+  
+    <div class="work-item">
+      <h3>Project 2: Business-card</h3>
+      <p class="date">2022</p>
+      <p>Developed a Business-card using HTML, CSS. </p>
+    </div>
+  
+    <div class="work-item">
+        <h3>Project 3: Website of AIU</h3>
+        <p class="date">2022</p>
+        <p>Developed a website of our university using HTML, CSS, Java Script </p>
+      </div>
+      <div class="work-item">
+        <h3>Project 4. Coffee Shop Menu</h3>
+        <p class="date">2022</p>
+        <p>Developed a menu for cafe using HTML, CSS, Java Script in FreeCodeCamp</p>
+        <p>Link: <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-91">Project 4</a></p>
+      </div>
+
+      <div class="work-item">
+        <h3>Project 5. Magazine Article</h3>
+        <p class="date">2022</p>
+        <p>Developed a magazine article cafe using HTML, CSS, Java Script in FreeCodeCamp</p>
+        <p>Link: <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-grid-by-building-a-magazine/step-80">Project 5</a></p>
+      </div>
+  
+  </section>
+  
+    <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-container">
+      <div class="gallery-item"><img src="images/img6.jpg" alt="Image 1"></div>
+      <div class="gallery-item"><img src="images/img2.jpg" alt="Image 2"></div>
+      <div class="gallery-item"><img src="images/img3.jpg" alt="Image 3"></div>
+   
+      
+  
+    </div>
+  </section>
+  
+  
+
+  <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
